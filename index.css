@@ -5,7 +5,7 @@ body
 
 main
 {
-        text-align: center;
+    text-align: center;
 }
 
 .slider
@@ -84,7 +84,6 @@ div
 {
     transform: translateX(130px) translateZ(-20px) rotateY(5deg);
 }
-
 
 #third:checked ~ .slider .fourthLabel,
 #third:checked ~ .slider .fifthLabel,
