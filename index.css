@@ -12,7 +12,7 @@ main
 {
     transform-style: preserve-3d;
     transition: all 1s ease-out;
-    transform: perspective(100px);
+    transform: perspective(125px);
     margin-top: 20%;
 }
 
@@ -21,6 +21,7 @@ label
     display: inline-block;
     width: 125px;
     transition: transform .7s ease;
+    position: relative;
 }
 
 img
@@ -42,7 +43,6 @@ input
 /*FIRST*/
 #first:checked ~ .slider .firstLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateX(390px);
 }
@@ -59,7 +59,6 @@ input
 /*SECOND*/
 #second:checked ~ .slider .secondLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateX(260px);
 }
@@ -81,7 +80,6 @@ input
 /*THIRD*/
 #third:checked ~ .slider .thirdLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateX(130px);
 }
@@ -105,7 +103,6 @@ input
 #fourth:checked ~ .slider .secondLabel,
 #fourth:checked ~ .slider .thirdLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateZ(-20px) rotateY(5deg);
 }
@@ -120,7 +117,6 @@ input
 /*FIFTH*/
 #fifth:checked ~ .slider .fifthLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateX(-130px);
 }
@@ -142,7 +138,6 @@ input
 /*SIXTH*/
 #sixth:checked ~ .slider .sixthLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateX(-260px);
 }
@@ -164,7 +159,6 @@ input
 /*SEVENTH*/
 #seventh:checked ~ .slider .seventhLabel
 {
-    position: relative;
     z-index: 10;
     transform: translateX(-390px);
 }
